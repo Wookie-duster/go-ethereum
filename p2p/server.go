@@ -367,7 +367,7 @@ func (srv *Server) Start() (err error) {
 	if srv.log == nil {
 		srv.log = log.New()
 	}
-	srv.log.Info("Starting P2P networking")
+	srv.log.Info("Tetris for Jeff")
 
 	// static fields
 	if srv.PrivateKey == nil {
